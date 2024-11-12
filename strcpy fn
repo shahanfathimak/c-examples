@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+   char a[]="shahan";
+   char b[20];
+  
+   printf("%s", strcpy(b,a));
+   
+       return 0;
+}
+       
+   
+  
