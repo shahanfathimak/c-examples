@@ -1,0 +1,18 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+   char a[]="shahan";
+   char b[7];
+   int i;
+   for(i=0;i<7;i++){
+      b[i]=a[i];
+   }
+   printf("%s",b);
+   
+       return 0;
+}
+       
+   
+  
