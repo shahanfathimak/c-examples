@@ -1,0 +1,72 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   int a;
+   printf("enter the amount:");
+   scanf("%d",&a);
+   int i=1;
+   
+   
+   while( (i*100)<=a){
+       i++;
+       }
+       int j=1;
+       int b;
+       b=a-((i-1)*100);
+
+       while( (j*50)<=b){
+       j++;
+       }
+       int k=1;
+       int c;
+       c=b-((j-1)*50);
+
+       while( (k*20)<=c){
+       k++;
+       }
+        int l=1;
+       int d;
+       d=c-((k-1)*20);
+
+       while( (l*10)<=d){
+       l++;
+       
+       }
+       int m=1;
+       int e;
+       e=d-((l-1)*10);
+
+       while( (m*5)<=e){
+       m++;
+       
+       }
+        int n=1;
+       int f;
+       f=e-((m-1)*5);
+       while( (n*2)<=f){
+       n++;
+       
+       }
+       
+        int o=1;
+       int g;
+       g=f-((n-1)*2);
+       while( (o*1)<=g){
+       o++;
+       
+       }
+       
+      printf("%d no of 100 rs notes\n",(i-1));   
+       printf("%d no of 50 rs notes\n",(j-1));  
+       printf("%d no of 20 rs notes\n",(k-1));  
+       printf("%d no of 10 rs notes\n",(l-1));  
+        printf("%d no of 5 rs notes\n",(m-1));  
+        printf("%d no of 2 rs notes\n",(n-1));
+        printf("%d no of 1 rs notes\n",(o-1));
+        
+       return 0;
+}
+       
+   
+  
