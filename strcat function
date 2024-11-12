@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+int main() {
+char a[]="abc";
+char b[]="def";
+printf("%s",strcat(a,b));
+return 0;
+}
+       
+   
+  
