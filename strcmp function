@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+int main() {
+char a[20]="xray";
+char b[20]="zord";
+int c;
+c=strcmp(a,b);
+printf("%d\n",c);
+if(c==0){
+  printf("string a=string b")  ;
+}
+else if(c<0){
+printf("string a less than string b")  ;
+}
+else{
+    printf("string a greater than string b")  ;
+}
+
+
+return 0;
+}
+       
+   
+  
