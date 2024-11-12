@@ -1,0 +1,32 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int n1,n2;
+    char op;
+    int result;
+    printf("enter the operator:\n");
+    scanf("%c",&op);
+    printf("enter the first number:\n");
+    scanf("%d",&n1);
+    printf("enter the second number:\n");
+    scanf("%d",&n2);
+    if(op=='+'){
+        result=n1+n2;
+        printf("result = %d",result);
+    }
+    else if(op=='-'){
+        result=n1-n2;
+        printf("result = %d",result);
+    }
+     else if(op=='/'){
+        result=n1/n2;
+        printf("result = %d",result);
+    }
+     else{
+         result=n1*n2;
+        printf("result = %d",result); 
+     }
+
+    return 0;
+}
